@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Baptiste</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+ <!-- Navbar  -->
+ <nav class="navbar navbar-expand-lg" style="background-color: #303030;">
+    <div class="container-fluid justify-content-center">
+        <div class="d-flex align-items-center">
+            <a class="navbar-brand" href="#">
+                <img src="images.jpeg" alt="Logo" style="max-width: 50px;">
+            </a>
+            <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item mx-3">
+                    <a class="nav-link text-white" href="#etudes">Études</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link text-white" href="#competences">Compétences</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link text-white" href="#experience">Expériences</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link text-white" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Titre principal avec Jumbotron -->
+    <header class="bg-success text-white text-center py-3">
+        <h1>Curriculum Vitae de Baptiste Soufflet</h1>
+    </header>
+
+    <!-- Section Information Personnelle avec Card -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- Colonne 1 : Infos personnelles -->
+            <div class="col-lg-9 col-md-12 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>Baptiste Soufflet</h2>
+                        <p>Trégeux</p>
+                        <p>Né le 13 janvier 2005</p>
+                        <p>📞 07.49.55.97.49</p>
+                        <a href="mailto:baptiste.soufflet@free.fr" class="btn btn-primary">Me contacter par mail</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Colonne 2 : Photo -->
+            <div class="col-lg-3 col-md-12 text-center">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="images.jpeg" alt="Baptiste" class="img-fluid rounded-circle" style="max-width: 150px;">
+                        <p class="mt-3">Baptiste</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section Études -->
+    <section id="etudes" class="container mb-5">
+        <h3>Études</h3>
+        <table class="table table-bordered table-striped">
+            <thead class="table-success">
+                <tr>
+                    <th>Année</th>
+                    <th>Diplôme</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024</td>
+                    <td>Terminale Bac Pro Systèmes Numériques, option ARED [Mention Bien]</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>Première Bac Pro Systèmes Numériques, option ARED</td>
+                </tr>
+                <tr>
+                    <td>2022</td>
+                    <td>Première Lycée Général et Technologique</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section Compétences Informatiques -->
+    <section id="competences" class="container mb-5">
+        <h3>Compétences informatiques</h3>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Catégorie</th>
+                    <th>Détails</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Systèmes d'exploitation</td>
+                    <td>Windows 7, Windows 10, Windows 11, Windows 95, Windows 98, Debian, Ubuntu</td>
+                </tr>
+                <tr>
+                    <td>Langages</td>
+                    <td>HTML, CSS, JavaScript, PHP, Visual Basic, Python, Java</td>
+                </tr>
+                <tr>
+                    <td>IDE</td>
+                    <td>Visual Studio, NetBeans</td>
+                </tr>
+                <tr>
+                    <td>Frameworks</td>
+                    <td>CodeIgniter</td>
+                </tr>
+                <tr>
+                    <td>Réseau</td>
+                    <td>VLAN, Routage, CISCO</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section Expériences Professionnelles -->
+    <section id="experience" class="container mb-5">
+        <h3>Expériences professionnelles</h3>
+        <table class="table table-bordered table-striped">
+            <thead class="table-success">
+                <tr>
+                    <th>Année</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2023</td>
+                    <td>Stage Micro-Contact</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>Stage EMPS Ar-Goued</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section Divers -->
+    <section id="divers" class="container mb-5">
+        <h3>Divers</h3>
+        <ul class="list-group">
+            <li class="list-group-item">Gaming</li>
+            <li class="list-group-item">Développement Discord</li>
+        </ul>
+    </section>
+
+    <!-- Section Formulaire de contact -->
+    <section id="contact" class="container mb-5">
+        <h3>Formulaire de contact</h3>
+        <div class="bg-light p-4 rounded">
+            <form>
+                <div class="mb-3">
+                    <label for="nom" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="nom" placeholder="Votre nom">
+                </div>
+                <div class="mb-3">
+                    <label for="prenom" class="form-label">Prénom</label>
+                    <input type="text" class="form-control" id="prenom" placeholder="Votre prénom">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Votre adresse email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Votre message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
